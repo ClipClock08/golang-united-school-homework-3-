@@ -2,7 +2,7 @@ package homework
 
 func reverse(input []int64) (result []int64) {
 	//Place your code here
-	for i := len(input); i > 0; i++ {
+	for i := len(input) - 1; i > -1; i-- {
 		result = append(result, input[i])
 	}
 	return result
